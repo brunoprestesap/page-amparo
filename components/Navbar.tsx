@@ -9,8 +9,8 @@ const Navbar = () => {
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
 
       <Link href="/">
-        {/* <Image src="/hilink-logo.svg" alt="logo" width={74} height={29} /> */}
-        <h1 className='text-gray-50 bold-20 cursor-pointer'>Instituto Amparo</h1>
+        <Image src="/amparo-logo.webp" alt="logo" width={185} height={35} />
+        {/* <h1 className='text-gray-50 bold-20 cursor-pointer'>Instituto Amparo</h1> */}
       </Link>
       
       <ul className="hidden h-full gap-12 lg:flex">
