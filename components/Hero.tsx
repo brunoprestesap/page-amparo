@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import React from 'react'
-import Button from './Button'
+import Image from "next/image";
+import React from "react";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -20,8 +20,9 @@ const Hero = () => {
         /> */}
         <h1 className="bold-52 lg:bold-88">Instituto Amparo</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          Com abordagens terapêuticas personalizadas e um ambiente acolhedor, 
-          estamos comprometidos em ajudá-lo a recuperar o equilíbrio mental e emocional."
+          Com abordagens terapêuticas personalizadas e um ambiente acolhedor,
+          estamos comprometidos em ajudá-lo a recuperar o equilíbrio mental e
+          emocional."
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -48,11 +49,15 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Agende sua consulta" variant="btn_green" />
+          <Button
+            type="button"
+            title="Agende sua consulta"
+            variant="btn_green"
+          />
         </div>
       </div>
 
-      <div className="relative flex flex-1 items-start">
+      {/* <div className="relative flex flex-1 items-end">
         <div className="relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-[#283618] px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
@@ -73,9 +78,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
